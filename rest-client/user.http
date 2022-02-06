@@ -1,0 +1,38 @@
+POST http://localhost:3000/users
+Content-type: application/json
+
+{
+    "name": "Nathan Oliveira",
+    "email": "nathan_oliveiramendonca@hotmail.com"
+}
+
+###
+
+GET http://localhost:3000/users
+
+###
+
+GET http://localhost:3000/users/1
+
+###
+
+PUT http://localhost:3000/users/1
+Content-type: application/json
+
+{
+    "name": "Nathan Oliveira",
+    "email": "nathan_oliveiramendonca@hotmail.com"
+}
+
+###
+
+DELETE http://localhost:3000/users/1
+
+###
+
+POST http://localhost:3000/users
+Content-type: application/json
+
+{
+    "name": ""
+}
